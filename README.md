@@ -11,6 +11,7 @@ kubectl run remoteweb -n remote --image=nginx
 ## 3. Utworzenie Service typu NodePort z portem 31999
 
 kubectl expose pod remoteweb -n remote --type=NodePort --port=80 --name=remoteweb
+
 kubectl patch svc remoteweb -n remote -p '{"spec": {"ports": [{"port":80,"protocol":"TCP","targetPort":80,"nodePort":31999}]}}'
 
 ## 4. Uruchomienie Poda testpod w namespace default
