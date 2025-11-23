@@ -1,4 +1,4 @@
-# Laby7_Wojciech_Wojciechewicz
+# Lab7_Wojciech_Wojciechewicz
 
 ## 1. Utworzenie przestrzeni nazw
 
