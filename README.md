@@ -30,9 +30,3 @@ minikube ip
 
 curl http://$(minikube ip):31999
 
-## 7. Wnioski
-1. Usługa remoteweb jest dostępna z wewnątrz klastra poprzez DNS Kubernetes.
-2. Poprawnie wystawiona jako NodePort jest również dostępna z zewnątrz na porcie 31999.
-    Usługa remoteweb jest dostępna z wewnątrz klastra poprzez DNS Kubernetes.
-
-    Poprawnie wystawiona jako NodePort jest również dostępna z zewnątrz na porcie 31999.
